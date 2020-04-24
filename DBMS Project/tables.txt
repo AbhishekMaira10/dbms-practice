@@ -1,0 +1,72 @@
+ pharm_co
+create table pharm_co(name varchar(10),phno number(20));
+insert into pharm_co values('Benzol ',9007434351);
+ insert into pharm_co values('Brunet',9007434452);
+ insert into pharm_co values('Lawtons',9227434321);
+ insert into pharm_co values(' Walmart',9347234651);
+ insert into pharm_co values('Walmart',9097435359);
+ insert into pharm_co values(' Uniprix ',9906634331);
+ insert into pharm_co values(' Rexall ',9037443461);
+ insert into pharm_co values('Cipla',9337433351);
+ insert into pharm_co values('London pharm_cos',8807434352);
+ insert into pharm_co values('Shoppers Mart',8907444351);
+ insert into pharm_co values('Pharmasave',9007434351);
+ insert into pharm_co values('Jean Coutu ',9007438358);
+ insert into pharm_co values(' Proxim ',8087434358);
+ insert into pharm_co values(' Costco',9017436352);
+ insert into pharm_co values('Familiprix',8003434331);
+ insert into pharm_co values('China Nepstar',9037437357);
+ insert into pharm_co values('Lloyds Pharmacy',7097434351);
+ insert into pharm_co values('Ajanta Pharma',9007434356);
+ insert into pharm_co values('Actavis',8097434351);
+ insert into pharm_co values('Allergan',9807434381);
+
+
+
+pri_physician
+create table pri_physician(ssno number(10),phy_ssn number(10));
+insert into pharm_co values(1,101);
+insert into pharm_co values(2,102);
+insert into pharm_co values(3,103);
+insert into pharm_co values(4,104);
+insert into pharm_co values(5,105);
+insert into pharm_co values(6,106);
+insert into pharm_co values(7,107);
+insert into pharm_co values(8,108);
+insert into pharm_co values(9,109);
+insert into pharm_co values(10,110);
+insert into pharm_co values(11,111);
+insert into pharm_co values(12,112);
+insert into pharm_co values(13,113);
+insert into pharm_co values(14,114);
+insert into pharm_co values(15,115);
+insert into pharm_co values(16,116);
+insert into pharm_co values(17,117);
+insert into pharm_co values(18,118);
+insert into pharm_co values(19,119);
+insert into pharm_co values(20,120);
+
+
+prescription
+create table pri_physician(ssno number(10),phy_ssn number(10),pharm_co_name varchar(10),trade_name varchar(10),quantity number(10));
+insert into pharm_co values(1,101,'Benzol ','Aramine ',102);
+insert into pharm_co values(2,102,'Brunet','Adenine',23);
+insert into pharm_co values(3,103,'Lawtons','Benzocaine ',34);
+insert into pharm_co values(4,104,' Walmart','Benzoin',56);
+insert into pharm_co values(5,105,'Walmart','Benzyl benzoate',67);
+insert into pharm_co values(6,106,' Uniprix ','Danazol ',75);
+insert into pharm_co values(7,107,' Rexall ','Ensulizole ',98);
+insert into pharm_co values(8,108,'Cipla','Fosinopril',76);
+insert into pharm_co values(9,109,'London pharm_cos','Furosemide',87);
+insert into pharm_co values(10,110,'Shoppers Mart','Gadobutrol',34);
+insert into pharm_co values(11,111,'Pharmasave','Gadodiamide',56);
+insert into pharm_co values(12,112,'Jean Coutu ','Heparin ',87);
+insert into pharm_co values(13,113,' Proxim ','Huperzine A ',65);
+insert into pharm_co values(14,114,' Costco','Huperzine',23);
+insert into pharm_co values(15,115,'Familiprix','Iodipamide ',54);
+insert into pharm_co values(16,116,'China Nepstar','Lasofoxifene',66);
+insert into pharm_co values(17,117,'Lloyds Pharmacy','Mag gluconate ',71);
+insert into pharm_co values(18,118,'Ajanta Pharma','Oseltamivir',39);
+insert into pharm_co values(19,119,'Actavis','Oseltamivir',65);
+insert into pharm_co values(20,120,'Allergan','Pergolide',25);
+
